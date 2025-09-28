@@ -105,6 +105,20 @@ Log: "File already processed successfully. Skipping..."
 
 ## การ Deploy
 
+### วิธีที่ 1: Deploy จาก GitHub Repository (แนะนำ)
+
+```bash
+# Clone repository
+git clone https://github.com/YOUR_USERNAME/gcp-csv-ingestion-pipeline.git
+cd gcp-csv-ingestion-pipeline
+
+# Run deployment script
+chmod +x csv-processor-function/deploy-from-github.sh
+./csv-processor-function/deploy-from-github.sh
+```
+
+### วิธีที่ 2: Deploy จาก Local Source
+
 ```bash
 cd csv-processor-function
 
