@@ -3,7 +3,7 @@
 # Deploy Cloud Function from GitHub Repository
 # Make sure to update REPO_URL and BRANCH variables
 
-REPO_URL="https://github.com/peerawet1996/gcp-csv-ingestion-pipeline"
+REPO_URL="https://github.com/peerawet/CSV-Data-Ingestion-Pipeline-with-Idempotency-on-Google-Cloud-Platform"
 BRANCH="main"
 SOURCE_DIR="csv-processor-function"
 

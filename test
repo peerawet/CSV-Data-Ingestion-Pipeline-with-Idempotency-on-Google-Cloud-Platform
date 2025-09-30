@@ -1,0 +1,2 @@
+gcloud storage cp bad-only-header.csv gs://dormy-sheets-csv-uploads/
+gcloud pubsub subscriptions pull csv-processing-dlq-sub --limit=5 --format=json

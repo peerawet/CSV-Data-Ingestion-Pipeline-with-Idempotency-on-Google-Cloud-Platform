@@ -109,7 +109,7 @@ Log: "File already processed successfully. Skipping..."
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/gcp-csv-ingestion-pipeline.git
+git clone https://github.com/peerawet/CSV-Data-Ingestion-Pipeline-with-Idempotency-on-Google-Cloud-Platform.git
 cd gcp-csv-ingestion-pipeline
 
 # Run deployment script
